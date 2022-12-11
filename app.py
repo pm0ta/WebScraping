@@ -20,9 +20,3 @@ with sync_playwright() as p:
     print(title)
 
     time.sleep(60)
-
-# url = 'https://www.pichau.com.br/teclas-para-teclado-mecanico-redragon-preta-a106' 
-# page = requests.get(url)
-# soup = BeautifulSoup(page.content, 'html.parser')
-# time.sleep(2)
-# title = soup.find('h1', {'data-cy':'product-page-title'}).text
